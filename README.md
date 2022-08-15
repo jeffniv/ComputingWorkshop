@@ -1,2 +1,2 @@
 # ComputingWorkshop
- Codes for workshop lessons.
+ Codes for the UWyo ATSC computing workshop lessons.
