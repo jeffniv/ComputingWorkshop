@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# author: Jeff Nivitanont, U. Wyoming 2022
+
 import numpy as np
 
 def bisect(f, a, b, delta=1e-3, i_lim=1e3):
