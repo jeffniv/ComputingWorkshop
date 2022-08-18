@@ -5,20 +5,20 @@
 import numpy as np
 
 def bisect(f, a, b, delta=1e-3, i_lim=1e3):
-'''
-The classic bisection method with a built-in fail safe to check
-for valid intervals.
+    '''
+    The classic bisection method with a built-in fail safe to check
+    for valid intervals.
 
-Inputs:
-    f       function to bisect
-    a       left bound
-    b       right bound
-    delta   tolerance level
-    i_lim   iteration limiter
+    Inputs:
+        f       function to bisect
+        a       left bound
+        b       right bound
+        delta   tolerance level
+        i_lim   iteration limiter
 
-Returns:
-    zero estimate
-'''
+    Returns:
+        zero estimate
+    '''
     if f(a)*f(b) > 0:
         print('Invalid interval.')
         return np.nan
